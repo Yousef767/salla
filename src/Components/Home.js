@@ -6,7 +6,7 @@ import pay from "../Media/payment.svg";
 const Home = () => {
   return (
     <div className="home">
-      <div className="main">
+      <div className="main over">
         <h1 className="homeAni">سلَّة.. تجارة ذكيَّة وسهلة </h1>
         <p className="homeAni-d200">
           أنشئ متجرك الإلكتروني في دقائق، واربط منتجاتك بمجموعة متكاملة من
@@ -22,7 +22,9 @@ const Home = () => {
         <img className="homeAni-d800" src={intro} alt="" />
       </div>
       <div className="stage">
-        <h1 className="js-scroll fade-btm">أكبر منصَّة سعودية للتجارة الإلكترونيَّة في الشرق الأوسط</h1>
+        <h1 className="js-scroll fade-btm">
+          أكبر منصَّة سعودية للتجارة الإلكترونيَّة في الشرق الأوسط
+        </h1>
         <p className="js-scroll fade-top">
           أنشئ متجرك الإلكتروني، وانضمَّ لعشرات الآلاف من العلامات المحلية
           والعالمية الناجحة مع سلة اليوم
@@ -44,7 +46,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="sections">
+      <div className="sections over">
         <div className="box f-c">
           <h1 className="js-scroll fade-btm">سلة تفهم كافة احتياجاتك</h1>
           <p className="js-scroll fade-top">
@@ -96,11 +98,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="box yourStore">
+      <div className="box yourStore over">
         <img className="js-scroll fade-left" src={design} alt="" />
         <div className="title">
           <h2 className="js-scroll fade-right">متجرك، على ذوقك </h2>
-          <p className="js-scroll fade-left">نجاحك التجاري يحتاج لمظهر أنيق، اختر مظهرًا يناسب علامتك.</p>
+          <p className="js-scroll fade-left">
+            نجاحك التجاري يحتاج لمظهر أنيق، اختر مظهرًا يناسب علامتك.
+          </p>
           <div className="arr js-scroll fade-btm">
             <i class="fa-regular fa-angles-left"></i>
             مكتبة متنوعة من الثيمات الجاهزة القابلة للتخصيص حسب رغبتك.
@@ -115,12 +119,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="pg">
+      <div className="pg over">
         <div className="box yourStore">
           <img className="js-scroll fade-left" src={lang} alt="" />
           <div className="title">
             <h2 className="js-scroll fade-right">تجارة لا تعرف حدودًا </h2>
-            <p className="js-scroll fade-left">من السعوديَّة لكل العالم بكل سهولة.</p>
+            <p className="js-scroll fade-left">
+              من السعوديَّة لكل العالم بكل سهولة.
+            </p>
             <div className="arr js-scroll fade-btm">
               <i class="fa-regular fa-angles-left"></i>
               دعم أكثر من 40 لغة.
@@ -136,10 +142,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="box yourStore">
+      <div className="box yourStore over">
         <img className="js-scroll fade-left" src={pay} alt="" />
         <div className="title">
-          <h2 className="js-scroll fade-right">مدفوعات آمنة، لتجارة مستدامة، وثقة متينة! </h2>
+          <h2 className="js-scroll fade-right">
+            مدفوعات آمنة، لتجارة مستدامة، وثقة متينة!{" "}
+          </h2>
           <p className="js-scroll fade-left">
             استفد من نظام سلة المتكامل للمدفوعات الإلكترونية لإدارة مدفوعات
             متجرك وعملائك
@@ -162,7 +170,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="card">
+      <div className="card over">
         <div className="box cd js-scroll fade-top">
           <div className="b">
             أنشئ متجرك مجاناَ <i class="sicon-add-circle"></i>

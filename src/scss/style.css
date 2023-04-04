@@ -946,4 +946,7 @@ nav.activeNav .menu {
     transform: translateY(0px);
     opacity: 1;
   }
+}
+.over {
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */
